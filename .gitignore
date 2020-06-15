@@ -1,6 +1,7 @@
 # Watchtower-Specific GitIgnore ---------------------------------------------------------------
 wtdata/*
 !wtdata/*.zip
+
 # Repo-specific GitIgnore ---------------------------------------------------------------------
 *.jpg
 *.jpeg
