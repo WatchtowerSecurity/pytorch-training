@@ -1,4 +1,7 @@
-# Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
+# Watchtower-Specific GitIgnore ---------------------------------------------------------------
+wtdata/*
+!wtdata/*.zip
+# Repo-specific GitIgnore ---------------------------------------------------------------------
 *.jpg
 *.jpeg
 *.png
@@ -45,7 +48,7 @@ gcp_test*.sh
 *.mat
 !targets*.mat
 
-# Neural Network weights -----------------------------------------------------------------------------------------------
+# Neural Network weights -----------------------------------------------------------------------
 *.weights
 *.pt
 *.onnx
@@ -53,7 +56,7 @@ gcp_test*.sh
 darknet53.conv.74
 yolov3-tiny.conv.15
 
-# GitHub Python GitIgnore ----------------------------------------------------------------------------------------------
+# GitHub Python GitIgnore -----------------------------------------------------------------------
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -157,7 +160,7 @@ ENV/
 .mypy_cache/
 
 
-# https://github.com/github/gitignore/blob/master/Global/macOS.gitignore -----------------------------------------------
+# https://github.com/github/gitignore/blob/master/Global/macOS.gitignore ---------------------------
 
 # General
 .DS_Store
@@ -189,7 +192,8 @@ Temporary Items
 
 
 # https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion,
+# Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 # User-specific stuff:
